@@ -1,6 +1,6 @@
 import express, { Request, Response, NextFunction } from "express";
 import cors from "cors";
-import { tasksRouter } from "./controllers/tasks.controller.js";
+import { tasksRouter } from "./controllers/tasks.controller";
 
 const app = express();
 const PORT = process.env.PORT ?? 3001;

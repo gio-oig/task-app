@@ -42,4 +42,4 @@ The architecture follows a layered approach: routes → controllers → services
 - **`types/index.ts`** — Shared domain types.
 - **`api/tasks.ts`** — service functions to call endpoints 
 - **`queries`** — repository layer handles server state, custom hooks wrapping TanStack Query v5.
-- **Components/index** — components are exported form here
+- **Components/index** — components are exported form here, components use atomic design

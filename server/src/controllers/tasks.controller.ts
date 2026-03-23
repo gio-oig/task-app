@@ -1,7 +1,7 @@
 import { Router, Request, Response, NextFunction } from "express";
-import { taskService } from "../services/task.service.js";
-import { CreateTaskRequest, ListQuery } from "../types/index.js";
-import { ValidationError } from "../utils/ValidationError.js";
+import { taskService } from "../services/task.service";
+import { CreateTaskRequest, ListQuery } from "../types/index";
+import { ValidationError } from "../utils/ValidationError";
 
 export const tasksRouter = Router();
 

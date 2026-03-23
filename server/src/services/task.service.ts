@@ -1,5 +1,5 @@
-import { taskStore } from "../store/task.store.js";
-import type { FilterType, ListQuery, PaginatedResponse, Task } from "../types/index.js";
+import { taskStore } from "../store/task.store";
+import type { FilterType, ListQuery, PaginatedResponse, Task } from "../types/index";
 
 const VALID_FILTERS: FilterType[] = ["all", "active", "completed"];
 const DEFAULT_PAGE = 1;

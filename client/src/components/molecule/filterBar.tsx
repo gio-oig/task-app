@@ -1,5 +1,5 @@
 import { memo } from "react";
-import type { FilterType } from "../../types/index.js";
+import type { FilterType } from "../../types";
 
 interface FilterBarProps {
   filters: FilterType[];

@@ -1,6 +1,6 @@
 import { randomUUID } from "crypto";
-import type { Task, ListOptions, PaginatedResponse } from "../types/index.js";
-import { ValidationError } from "../utils/ValidationError.js";
+import type { Task, ListOptions, PaginatedResponse } from "../types/index";
+import { ValidationError } from "../utils/ValidationError";
 
 
 

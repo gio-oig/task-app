@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
-import { fetchTasks } from "../api/tasks.js";
-import type { FilterType } from "../types/index.js";
-import { PAGING_LIMIT, queryKeys } from "../utils/constants.js";
+import { fetchTasks } from "../api/tasks";
+import type { FilterType } from "../types";
+import { PAGING_LIMIT, queryKeys } from "../utils/constants";
 
 export const tasksQueryKey = (filter: FilterType, page: number) =>
   [queryKeys.TASKS, filter, page] as const;
